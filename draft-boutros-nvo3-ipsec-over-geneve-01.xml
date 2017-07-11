@@ -6,7 +6,7 @@
 <?rfc sortrefs='yes' ?>
 <rfc category="std" docName="draft-boutros-nvo3-ipsec-over-geneve-01" ipr="trust200902">
   <front>
-    <title abbrev="NVO3 IPSec over Geneve">IPsec over Geneve Encapsulation</title>
+    <title abbrev="NVO3 IPsec over Geneve">IPsec over Geneve Encapsulation</title>
     <author surname="Boutros" initials="S.B." fullname="Sami Boutros" role="editor">
       <organization>VMware, Inc.</organization>
       <address>
