@@ -6,7 +6,7 @@
 <?rfc sortrefs='yes' ?>
 <rfc category="std" docName="draft-boutros-nvo3-ipsec-over-geneve-01" ipr="trust200902">
   <front>
-    <title abbrev="NVO3 IPSec over Geneve">IPSec over Geneve Encapsulation</title>
+    <title abbrev="NVO3 IPSec over Geneve">IPsec over Geneve Encapsulation</title>
     <author surname="Boutros" initials="S.B." fullname="Sami Boutros" role="editor">
       <organization>VMware, Inc.</organization>
       <address>
@@ -56,7 +56,7 @@
    This document specifies how Generic Network Virtualization
    Encapsulation (Geneve) can be used to carry IP Encapsulating Security
    Payload (ESP) and IP Authentication Header (AH) to provide secure
-   transport over IP networks. Using IPSec ESP and AH will provide both
+   transport over IP networks. Using IPsec ESP and AH will provide both
    Geneve header integrity protection and Geneve payload encryption. 
 </t>
   </abstract>
@@ -88,7 +88,7 @@
    hypervisor itself rather than within a customer VM.</t>
 
    <t>When crossing an untrusted link, such as the public Internet,
-   <xref target="RFC4301">IPSec</xref> may be used to provide
+   <xref target="RFC4301">IPsec</xref> may be used to provide
    authentication and/or encryption of the IP packets formed as part
    of Geneve encapsulation.  If the remote tunnel endpoint is not
    completely trusted, for example it resides on a customer premises,
@@ -100,7 +100,7 @@
    encapsulation</xref> can be used to carry both the IP Encapsulation
    security payload (ESP) <xref target="RFC4303"/> and the IP
    authentication header (AH) <xref target="RFC4302"/> to provide
-   secure transport over IP networks. Using IPSec ESP and AH will
+   secure transport over IP networks. Using IPsec ESP and AH will
    provide both Geneve header integrity protection and Geneve payload
    encryption.</t>
 </section>
@@ -123,7 +123,7 @@
    <t>NVE:  Network Virtualization Edge</t>
    <t>NVA:  Network Virtualization Authority</t>
    <t>NIC:  Network Interface Card</t>
-   <t>IPSec:  IP Security</t>
+   <t>IPsec:  IP Security</t>
    <t>ESP:  IP Encapsulating Security Payload</t>
    <t>AH:  IP Authentication Header</t>
    <t>GRE:  Generic Routing Encapsulation (GRE)</t>
@@ -264,7 +264,7 @@ width="" height=""><![CDATA[
 <section anchor="security_considerations" title="Security Considerations">
 
 <!-- TBD:  text for introduction in version -01
-<t>If network policy requires IPSec encryption for certain traffic, it 
+<t>If network policy requires IPsec encryption for certain traffic, it 
 is important to ensure un-encrypted packets are not delivered to the
 guest virtual machine.  On certain virtualization stacks (e.g., Open
 vSwitch) this is implemented by dropping packets that arrive without
