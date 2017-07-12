@@ -114,7 +114,14 @@
 </section>
 
 
+<!--    If abbreviations are necessary for this document, bring in
+        just those necessary abbreviations, with citations to where
+        more information can be found or pretty self-contained 
+        descriptions. -->
+<!--
 <section title="Abbreviations">
+
+
 <t><list style="hanging">
    <t>NVO3:  Network Virtualization Overlays over Layer 3</t>
    <t>OAM:  Operations, Administration, and Maintenance</t>
@@ -131,6 +138,7 @@
    <t>Transit device Underlay network devices between NVE(s).</t>
 </list></t>
 </section>
+-->
 
 <section title="Encapsulation Security Payload (ESP) over Geneve tunnel">
 
@@ -150,7 +158,7 @@
    <t>The ESP Next Header field will be set to inner payload protocol
    which can be either EtherIP (97) or to the Generic Routing
    Encapsulation (GRE) (47). The GRE protocol type will be set to the
-   Ethernet protocol type.</t>
+   Ethernet protocol type. IPsec transport mode encryption is used.</t>
 
 <t>Inner Ethernet packet, as sent/received by the virtual machine:</t>
 <figure><artwork align="left" xml:space="preserve" name="" type="" alt="" 
