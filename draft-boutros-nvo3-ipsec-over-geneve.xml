@@ -261,25 +261,16 @@ width="" height=""><![CDATA[
    <t>In this document the next protocol signaled in control plane by
    NVE(s) can be ESP or AH.</t>
 
-   <t>Once 2 NVE(s) agree to carry ESP or AH as next protocol, Security
-   Association and Key Management Protocol defined in
-   <xref target="RFC2408"/> can be used to negotiate, establish,
-   modify and delete Security Associations. As well, mechanisms to
-   perform key exchange defined in <xref target="RFC2409"/> can be
-   used.</t>
+   <t>Once two NVE(s) agree to carry ESP or AH as next protocol, the
+   NVEs can use <xref target="RFC7296">IKEv2</xref> to negotiate,
+   establish, modify, and delete IPsec Security Associations.</t>
 </section>
 
 <section anchor="security_considerations" title="Security Considerations">
-
-<!-- TBD:  text for introduction in version -01
-<t>If network policy requires IPsec encryption for certain traffic, it 
+<t>If network policy requires IPsec encryption for certain traffic, it
 is important to ensure un-encrypted packets are not delivered to the
-guest virtual machine.  On certain virtualization stacks (e.g., Open
-vSwitch) this is implemented by dropping packets that arrive without
-the necessary IPsec encryption.</t>
--->
-
-<t>This document does not introduce any additional security constraints.</t>
+guest virtual machine.  This is implemented by dropping packets that
+arrive without the necessary IPsec encryption.</t>
 </section>
 
 <section anchor="IANA" title="IANA Considerations">
@@ -287,7 +278,7 @@ the necessary IPsec encryption.</t>
 </section>
 
 <section title="Acknowledgements">
-<t>The authors thank T. Sridhar for his valuable comments.</t>
+<t>The authors thank T.&nbsp;Sridhar for his valuable comments.</t>
 </section>
 
   </middle>
@@ -300,8 +291,7 @@ the necessary IPsec encryption.</t>
 <?rfc include="reference.RFC.4302.xml"?>
 <?rfc include="reference.RFC.4303.xml"?>
 <?rfc include="reference.RFC.2784.xml"?>
-<?rfc include="reference.RFC.2408.xml"?>
-<?rfc include="reference.RFC.2409.xml"?>
+<?rfc include="reference.RFC.7296.xml"?>
 <?rfc include="reference.I-D.ietf-nvo3-geneve.xml"?>
 </references>
 
