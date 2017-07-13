@@ -10,4 +10,4 @@ encryption.
 
 ## Working copies
 
-working copy in [HTML](http://htmlpreview.github.io/?https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.html") or [TXT](https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.txt">) format.
+working copy in [HTML](http://htmlpreview.github.io/?https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.html) or [TXT](https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.txt) format.
