@@ -17,8 +17,8 @@ Abstract
    This document specifies how Generic Network Virtualization
    Encapsulation (Geneve) can be used to carry IP Encapsulating Security
    Payload (ESP) and IP Authentication Header (AH) to provide secure
-   transport over IP networks.  Using IPSec ESP, the Geneve payload is
-   encrypted and integrity protected, whereas with IPSec AH the Geneve
+   transport over IP networks.  Using IPSec ESP the Geneve payload is
+   encrypted and integrity protected, and using IPSec AH the Geneve
    headers and payload are integrity protected.
 
 Status of This Memo
