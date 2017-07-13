@@ -9,7 +9,8 @@ encrypted and integrity protected, and using IPSec AH the Geneve headers
 and payload are integrity protected.
 
 ## Specification
-Editor's working copy in [HTML](http://htmlpreview.github.io/?https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.html) or [TXT](https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.txt) format.
+Editor's working copy in [HTML](http://htmlpreview.github.io/?https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.html) or [TXT](https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.txt) format.  [Differences](https://tools.ietf.org/rfcdiff?url1=https://tools.ietf.org/id/boutros-nvo3-ipsec-over-geneve.txt&url2=https://raw.githubusercontent.com/danwing/ipsec-over-gen\
+eve/master/draft-boutros-nvo3-ipsec-over-geneve.txt) from most recent Internet-Draft.
 
 Published as Internet Draft [HTML](https://tools.ietf.org/html/draft-boutros-nvo3-ipsec-over-geneve) [TXT](https://tools.ietf.org/txt/boutros-nvo3-ipsec-over-geneve)
 
