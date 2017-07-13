@@ -8,5 +8,8 @@ transport over IP networks. Using IPSec ESP the Geneve payload is
 encrypted and integrity protected, and using IPSec AH the Geneve headers
 and payload are integrity protected.
 
-## Working copies
-Working copy in [HTML](http://htmlpreview.github.io/?https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.html) or [TXT](https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.txt) format.
+## Specification
+Editor's working copy in [HTML](http://htmlpreview.github.io/?https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.html) or [TXT](https://raw.githubusercontent.com/danwing/ipsec-over-geneve/master/draft-boutros-nvo3-ipsec-over-geneve.txt) format.
+
+Published as Internet Draft [HTML](https://tools.ietf.org/html/draft-boutros-nvo3-ipsec-over-geneve) [TXT](https://tools.ietf.org/txt/boutros-nvo3-ipsec-over-geneve)
+
